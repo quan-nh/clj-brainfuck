@@ -1,7 +1,6 @@
 (ns brainfuck
   (:refer-clojure :exclude [eval])
-  (:require [clojure.pprint :refer [pprint]]
-            [instaparse.core :as insta]))
+  (:require [instaparse.core :as insta]))
 
 ;; eval
 (defmulti eval (fn [_ cmd] cmd))
