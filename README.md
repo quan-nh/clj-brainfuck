@@ -17,7 +17,7 @@ Command | Description
 
 All characters other than `><+-.,[]` should be considered comments and ignored.
 
-**Hello World!**
+### Hello World!
 
 ```sh
 $ clj -m brainfuck "++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++."
