@@ -1,0 +1,5 @@
+<program> = (commands | loop | <ignored>)+
+<commands> = command+
+loop = <'['> program <']'>
+<command> = '>' | '<' | '+' | '-' | '.' | ','
+ignored = #"[^><\+-\.,\[\]]+"
